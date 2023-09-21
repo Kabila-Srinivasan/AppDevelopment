@@ -1,0 +1,46 @@
+.follow-us {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-icon:hover {
+    background-color: #333; 
+    color: #fff;
+  }
+  
+
+  .social-icon.facebook {
+    background-color: #1877f2;
+  }
+  
+  .social-icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .social-icon.instagram {
+    background-color: #c32aa3;
+  }
+  
