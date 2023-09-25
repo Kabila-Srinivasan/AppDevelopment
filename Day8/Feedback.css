@@ -1,0 +1,79 @@
+.feedback-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  .feedback-box {
+    background-color: #2e1aafb5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+  }
+  .feedback-container {
+    text-align: center;
+  }
+  .feedback-header {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  .feedback-input {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .feedback-input i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #333;
+  }
+  .feedback-input input[type="text"],
+  .feedback-input input[type="email"],
+  .feedback-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  .feedback-input textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  .feedback-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .feedback-btn:hover {
+    background-color: #0056b3;
+  }
+  .feedback-error {
+    color: #ff0000;
+    margin-top: 5px;
+    text-align: left;
+  }
+  .feedback-success-message {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .feedback-link {
+    color: #000000;
+    font-weight: bold;
+  }
+  

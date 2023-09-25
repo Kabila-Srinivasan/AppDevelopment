@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #007bff;
+  }
+  .navbar {
+    background-color: #3864925c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+ .tedy {
+    background-color: #305b4d2b;
+    padding: 20px;
+  }
+  
+  .head {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .head h1 {
+    font-size: 36px;
+  }
+  
+  .head h2 {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .head h3 {
+    font-size: 18px;
+    color: #333;
+  }
+ 
+  .about {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .quote1 {
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  .prof {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .sb_footer-links-div {
+    margin: 20px;
+    color: #007bff;
+  }
+  
+  .sb_footer-links-div h4 {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .sb_footer-links-div p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #007bff;
+  }
+  
+  .sb_footer-copyright {
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .sb_footer-below {
+    margin-top: 20px;
+    color: #007bff;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+.sb_footer-copyright p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.sb_footer-copyright p::before {
+  content: "@Copyright ";
+  color: blue; 
+}
+.sb_footer-copyright p::after {
+  content: " All rights reserved.";
+  color: #ccc; 
+}
