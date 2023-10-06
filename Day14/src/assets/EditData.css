@@ -1,0 +1,90 @@
+#order {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  #gettable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #gettable th,
+  #gettable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    text-align: justify;
+  }
+  
+  #gettable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  #gettable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #gettable tr:hover {
+    background-color: #ddd;
+  }
+  
+  #actions {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #actions:hover {
+    background-color: #45a049;
+  }
+.e-signup-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer;
+  }
+  
+  .e-signup-btn:hover {
+    background-color: #45a049; 
+  }
+  
+  
+  .e-cancel-btn {
+    background-color: #f44336; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer;
+  }
+  
+  .e-cancel-btn:hover {
+    background-color: #d32f2f; 
+  }
+  
+  
+  

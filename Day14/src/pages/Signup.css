@@ -1,0 +1,81 @@
+.but3
+{
+        /*background-color: grey;
+        border:none;
+        color: black;
+        padding:8px 36px;
+        font-size: 20px;*/
+        position: absolute;
+    border-radius: 1000px;
+    background: #D9D9D9;
+    width: 177px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #000000;
+    left: 250px;
+}
+
+.rectangle2
+{
+    position: absolute;
+    height: 600px;
+    width: 570px;
+    left: 570px;
+    top: 100px;
+    border-radius: 60px;
+    
+    /*border: solid rgba(17, 16, 16, 0.812);
+    
+    box-shadow: 10px 10px 10px 10px rgba(195, 65, 65, 0.2);*/
+    background:transparent;
+    backdrop-filter: blur(2px);
+    border: solid rgba(98, 93, 93, 0.812);
+
+    box-shadow: 10px 10px 10px 10px black;
+    
+}
+.form_signup
+{
+    position: absolute;
+    left: 530px;
+    top: 120px;  
+    font-size: 20px;
+}
+.img
+{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+
+}
+.body4{
+    background-size: cover;
+    font-size: 15px;
+}
+
+
+
+.form_signup input{
+    width:45%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    border:2px solid black;
+}
+.full2
+{
+    background:no-repeat url('https://cdnb.artstation.com/p/marketplace/presentation_assets/000/886/717/large/file.jpg?1620090072') ;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+   
+    
+}
+/*background-position: center;*/

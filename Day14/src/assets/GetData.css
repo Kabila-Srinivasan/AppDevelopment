@@ -1,0 +1,162 @@
+
+#order {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #79430c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  #gettable {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: 2px;
+  font-family: Arial, sans-serif;
+  }
+  
+  
+  #gettable th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #gettable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: #666;
+  }
+  
+  #gettable tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  #gettable td:nth-child(1),
+  #gettable th:nth-child(1) {
+    width: 10%;
+    font-weight: bold;
+    color: #555;
+  }
+  .ob
+  {
+    background-color:skyblue;
+  }
+  #gettable td:nth-child(2),
+  #gettable th:nth-child(2) {
+    width: 20%;
+  }
+  
+  #gettable td:nth-child(3),
+  #gettable th:nth-child(3) {
+    width: 15%;
+  }
+  
+  #gettable td:nth-child(4),
+  #gettable th:nth-child(4) {
+    width: 10%;
+  }
+  
+  #gettable td:nth-child(5),
+  #gettable th:nth-child(5) {
+    width: 15%;
+  }
+  
+  #gettable td:nth-child(6),
+  #gettable th:nth-child(6) {
+    width: 15%;
+  }
+  
+  #gettable td:nth-child(7),
+  #gettable th:nth-child(7) {
+    width: 20%;
+  }
+  
+  #gettable td:nth-child(8),
+  #gettable th:nth-child(8) {
+    width: 10%;
+  }
+  
+  #gettable td:nth-child(9),
+  #gettable th:nth-child(9) {
+    width: 15%;
+  }
+  
+  #actions {
+    background-color: #4c81af;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #actions:hover {
+    background-color: #4c81af;
+  }
+  
+  #actions:active {
+    background-color: #4c81af;
+  }
+  
+  #actions:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  #actions-link {
+    text-decoration: none;
+    margin-right: 8px;
+  }
+  
+  #actions-link:hover {
+    text-decoration: underline;
+  }
+  
+  #actions-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #actions-container > *:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  #actions-container > *:last-child {
+    margin-right: 0;
+  }
+  
+  @media only screen and (max-width: 600px) 
+  {
+    #gettable td,
+    #gettable th {
+      width: auto;
+      display: block;
+    }
+  
+    #gettable th {
+      text-align: center;
+    }
+  
+    #gettable td:nth-child(n),
+    #gettable th:nth-child(n) 
+    {
+      width:100%;
+    }
+  }

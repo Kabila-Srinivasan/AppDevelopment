@@ -1,0 +1,90 @@
+input[type=password]
+{
+    width:45%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 27px;
+    box-sizing: border-box;
+    border:2px solid black;
+    
+}
+input[type=Name]
+{
+    width:45%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 27px;
+    box-sizing: border-box;
+    border:2px solid black;
+    
+}
+.rectangle
+{
+    position: absolute;
+    width: 488px;
+    height: 500px;
+    left: 220px;
+    top: 110px;
+    background:transparent;
+    border: solid rgba(98, 93, 93, 0.812);
+
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+    border-radius: 50px;
+}
+.full_login
+{
+    background: no-repeat url('https://png.pngtree.com/background/20230408/original/pngtree-kitchen-white-refrigerator-cartoon-background-picture-image_2338856.jpg');
+    background-size: cover;
+    
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.form_login
+{
+    position: absolute;
+    left: 250px;
+    top: 170px;  
+    font-size: 20px;
+}
+.but1
+{
+    position: absolute;
+    text-align: center;
+    border-radius: 1000px;
+    background: #D9D9D9;
+    width: 177px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #000000;
+    left: 100px;
+}
+.but2
+{
+    position: absolute;
+    text-align: center;
+    padding-bottom: 4px;
+    border-radius: 1000px;
+    background: #D9D9D9;
+    width: 177px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 35px;
+    color: #000000;
+    left: 100px;
+}
+.reg a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
