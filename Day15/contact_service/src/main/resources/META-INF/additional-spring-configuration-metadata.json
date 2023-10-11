@@ -1,0 +1,18 @@
+{"properties": [
+  {
+    "name": "eureka.instance.client",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.instance.client'"
+  },
+  {
+    "name": "eureka.instance.eureka-server-port",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.instance.eureka-server-port'"
+
+  },
+  {
+    "name": "eureka.instance.eureka-server-port",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.instance.eureka-server-port'"
+  }
+]}
